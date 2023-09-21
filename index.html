@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.js">
+    <title>Document</title>
+</head>
+<style>
+    .form{
+        font-size: 200%;
+        margin-top: 200px;
+        text-align: center;
+    }
+    #text{
+        width:200px;
+        height:25px;
+        border-radius: 7%;
+    }
+    .submit{
+        margin-top: 10px;
+        height: 40px;
+        width: 80px;
+    }
+</style>
+<body>
+    <form action="/filter" method="post" class="form">
+        Score  &nbsp; <input type="number" name="Score" style="margin-left: -0.5%;width:200px;height:25px;border-radius: 7%;"> <br>
+        State  &nbsp; <input type="text" name="State" id="text"> <br>
+        <input type="submit" class="submit">
+    </form>
+</body>
+</html>
